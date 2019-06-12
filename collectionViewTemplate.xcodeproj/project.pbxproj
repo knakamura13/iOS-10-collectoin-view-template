@@ -14,6 +14,7 @@
 		BF9376781FF44111008EB029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9376761FF44111008EB029 /* LaunchScreen.storyboard */; };
 		BF9376831FF44111008EB029 /* collectionViewTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9376821FF44111008EB029 /* collectionViewTemplateTests.swift */; };
 		BF93768E1FF44111008EB029 /* collectionViewTemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93768D1FF44111008EB029 /* collectionViewTemplateUITests.swift */; };
+		BF93769C1FF44135008EB029 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF93769B1FF44135008EB029 /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BF9376891FF44111008EB029 /* collectionViewTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = collectionViewTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF93768D1FF44111008EB029 /* collectionViewTemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionViewTemplateUITests.swift; sourceTree = "<group>"; };
 		BF93768F1FF44111008EB029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF93769B1FF44135008EB029 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				BF9376741FF44111008EB029 /* Assets.xcassets */,
 				BF9376761FF44111008EB029 /* LaunchScreen.storyboard */,
 				BF9376791FF44111008EB029 /* Info.plist */,
+				BF93769B1FF44135008EB029 /* MyCollectionViewCell.swift */,
 			);
 			path = collectionViewTemplate;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				BF9376701FF44111008EB029 /* ViewController.swift in Sources */,
 				BF93766E1FF44110008EB029 /* AppDelegate.swift in Sources */,
+				BF93769C1FF44135008EB029 /* MyCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GDSF452LB;
 				INFOPLIST_FILE = collectionViewTemplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kylenakamura.collectionViewTemplate;
@@ -441,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GDSF452LB;
 				INFOPLIST_FILE = collectionViewTemplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kylenakamura.collectionViewTemplate;
